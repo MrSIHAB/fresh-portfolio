@@ -2,7 +2,7 @@ import { SocialBar } from "../../components/SocialBar.tsx";
 
 export default function ProfileCard() {
   return (
-    <div class="profile-card">
+    <div class="card sm:flex">
       {/* Profile Picture */}
       <div>
         <div class="w-56">
