@@ -29,7 +29,7 @@ export default function App({ Component }: PageProps) {
         <link rel="stylesheet" href="/styles.css" />
       </head>
       <body>
-        <div className="container bg-gradient-to-br from-cyan-500 to-blue-600 bg-no-repeat min-h-screen font-arimo">
+        <div className="bg-gradient-to-br from-cyan-500 to-blue-600 bg-no-repeat min-h-screen font-arimo">
           <Component />
         </div>
       </body>

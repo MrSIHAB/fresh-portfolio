@@ -32,12 +32,13 @@ export default function ProjectIsland() {
       </div>
 
       {/* Grid of Projects */}
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
         {filteredProjects.slice(0, 6).map((project) => (
           <div
             class="project-card portfolio-card group from-[#1e3b8ac5] to-[#1e3b8a3f]"
             style={{
               padding: 0,
+              width: "100%",
             }}
           >
             {/* Identifier Tag */}
@@ -52,7 +53,7 @@ export default function ProjectIsland() {
             <img
               src={project.image}
               alt={project.title}
-              class="rounded-md w-full h-40 object-cover"
+              class="rounded-md w-full h-52 object-cover"
             />
 
             {/* Hover Info */}
