@@ -2,10 +2,10 @@ import { SocialBar } from "../../components/SocialBar.tsx";
 
 export default function ProfileCard() {
   return (
-    <div class="card sm:flex">
+    <div class="card w-11/12 sm:w-10/12  md:flex lg:w-9/12">
       {/* Profile Picture */}
       <div>
-        <div class="w-56">
+        <div class="w-56 mx-auto">
           <img
             src="/images/profile.jpg"
             alt="Profile Image"
@@ -26,7 +26,9 @@ export default function ProfileCard() {
       <div>
         <div class="flex align-middle justify-center mb-3">
           <div>
-            <h1 class="text-5xl font-bold text-primary">Shoaib Hossain</h1>
+            <h1 class="text-4xl font-bold text-primary">
+              Shoaib Hossain
+            </h1>
             <h3 class="text-right text-2xl font-bold italic text-primary">
               MrSIHAB
             </h3>
