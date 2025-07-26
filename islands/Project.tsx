@@ -1,12 +1,16 @@
 import { useState } from "preact/hooks";
-import { filters, projects } from "../lib/static-data/projects.ts";
+import {
+  filters,
+  ProjectCategory,
+  projects,
+} from "../lib/static-data/projects.ts";
 
 export default function ProjectIsland() {
-  const [selected, setSelected] = useState("All");
+  const [selected, setSelected] = useState<ProjectCategory>("All");
 
   const filteredProjects = selected === "All"
     ? projects
-    : projects.filter((p) => p.type === selected);
+    : projects.filter((p) => p.type.includes(selected));
 
   return (
     <>
@@ -41,7 +45,7 @@ export default function ProjectIsland() {
                     text-xs bg-primary text-black px-2 py-1 rounded-full inline-block
                     absolute top-2 left-2
                     ">
-              {project.type}
+              {project.type[0]}
             </div>
 
             {/* Preview */}
