@@ -1,4 +1,4 @@
-import { socialLinks } from "../lib/socialLinks.tsx";
+import { socialLinks } from "../lib/static-data/socialLinks.tsx";
 
 export const SocialBar = () => {
   return (

@@ -6,7 +6,7 @@ import {
   GithubSvg,
   XSvg,
   YouTubeSvg,
-} from "../components/svg/Social.tsx";
+} from "../../components/svg/Social.tsx";
 
 interface SocialLinks {
   name: string;
