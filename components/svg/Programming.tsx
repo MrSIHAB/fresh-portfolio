@@ -1,3 +1,5 @@
+/** All Svg Image was taken from https://simpleicons.org/. */
+
 export const FlutterSvg = () => (
   <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <title>Flutter</title>
