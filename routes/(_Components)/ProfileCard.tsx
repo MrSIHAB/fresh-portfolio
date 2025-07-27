@@ -1,8 +1,12 @@
+import { useSignal } from "@preact/signals";
 import { SocialBar } from "../../components/SocialBar.tsx";
+import ExpandableDescription from "../../islands/ExpandableDescription.tsx";
 
 export default function ProfileCard() {
+  const expanded = useSignal(false);
+
   return (
-    <div class="card w-11/12 sm:w-10/12  md:flex lg:w-9/12">
+    <div class="card w-11/12 sm:w-10/12 md:flex lg:w-9/12">
       {/* Profile Picture */}
       <div>
         <div class="w-56 mx-auto">
@@ -17,7 +21,7 @@ export default function ProfileCard() {
       </div>
 
       {/* A divider for profile and details  */}
-      <div class="flex align-middle justify-center">
+      <div class="hidden md:flex align-middle justify-center">
         <div class="w-1 bg-primary rounded-full h-2/3 mx-10 mt-7" />
       </div>
 
@@ -34,14 +38,7 @@ export default function ProfileCard() {
             </h3>
           </div>
         </div>
-        <p>
-          A self-taught developer who loves building useful tools, systems, and
-          cross-platform apps. I work with Deno and TypeScript on the backend,
-          and Flutter to create apps for Android and Linux. I enjoy solving real
-          problems—like making a custom VPN app or a simple database tool like
-          EasyKV. My goal is to keep things fast, clean, and easy to use—for
-          both developers and users.
-        </p>
+        <ExpandableDescription expanded={expanded} />
       </div>
       <div>
       </div>

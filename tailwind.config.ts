@@ -17,6 +17,9 @@ export default {
       fontFamily: {
         arimo: "Arimo, sans-serif",
       },
+      maxHeight: {
+        "36": "9rem",
+      },
     },
   },
 } satisfies Config;
