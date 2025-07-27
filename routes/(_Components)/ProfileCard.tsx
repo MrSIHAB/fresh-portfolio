@@ -1,13 +1,14 @@
 import { useSignal } from "@preact/signals";
 import { SocialBar } from "../../components/SocialBar.tsx";
 import ExpandableDescription from "../../islands/ExpandableDescription.tsx";
+import { OpenEmailButton } from "../../islands/OpenEmail.tsx";
 
 export default function ProfileCard() {
   const expanded = useSignal(false);
 
   return (
     <div class="card w-11/12 sm:w-10/12 md:flex lg:w-9/12">
-      {/* Profile Picture */}
+      {/* //* Profile Picture */}
       <div>
         <div class="w-56 mx-auto">
           <img
@@ -18,14 +19,16 @@ export default function ProfileCard() {
         </div>
         <br />
         <SocialBar />
+
+        <OpenEmailButton />
       </div>
 
-      {/* A divider for profile and details  */}
+      {/* //* A divider for profile and details  */}
       <div class="hidden md:flex align-middle justify-center">
         <div class="w-1 bg-primary rounded-full h-2/3 mx-10 mt-7" />
       </div>
 
-      {/* short detail  */}
+      {/* //* short detail  */}
 
       <div>
         <div class="flex align-middle justify-center mb-3">
