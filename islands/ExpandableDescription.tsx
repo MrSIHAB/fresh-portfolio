@@ -1,22 +1,18 @@
 import { Signal } from "@preact/signals";
+import { description } from "../lib/static-data/information.tsx";
 
 export default function ExpandableDescription(
   { expanded }: { expanded: Signal<boolean> },
 ) {
   return (
     <div class="relative text-sm leading-relaxed text-gray-200">
+      {/* hide scrollbar for this div  */}
       <div
-        class={`overflow-hidden ${expanded.value ? "max-h-[500px]" : "max-h-24"}
-            transition-all duration-300`}
+        class={`transition-all duration-300 scroll-smooth overflow-y-scroll scrollbar-hide ${
+          expanded.value ? "max-h-[550px]" : "max-h-[255px]"
+        }`}
       >
-        <p class="">
-          A self-taught developer who loves building useful tools, systems, and
-          cross-platform apps. I work with Deno and TypeScript on the backend,
-          and Flutter to create apps for Android and Linux. I enjoy solving real
-          problems—like making a custom VPN app or a simple database tool like
-          EasyKV. My goal is to keep things fast, clean, and easy to use—for
-          both developers and users.
-        </p>
+        <p>{description}</p>
       </div>
 
       <div class="flex justify-end mt-2">

@@ -18,3 +18,11 @@
 .portfolio-card {
   @apply to-[#591e8a7c] sm:w-10/12;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+mark {
+  @apply bg-transparent text-accent font-bold;
+}
