@@ -7,7 +7,7 @@ export default function ProfileCard() {
   const expanded = useSignal(false);
 
   return (
-    <div class="py-7 md:py-20">
+    <section class="py-7 md:py-20 min-h-[70vh] content-center">
       <div class="card w-11/12 sm:w-10/12 md:flex lg:w-9/12">
         {/* //* Profile Picture */}
         <div>
@@ -47,6 +47,6 @@ export default function ProfileCard() {
         <div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
