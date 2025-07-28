@@ -44,15 +44,23 @@ export default function HeroSection(
       {/* right: Flutter/Android visual */}
       <div class="fex flex-col align-middle items-center flex-1 gap-4 relative">
         {floatingIcon && (
+          // Floating Icon
           <img
             src={floatingIcon}
-            class="absolute top-[-25px] left-[-25px] w-[50px] -rotate-12"
+            class="absolute top-[-15px] left-[-15px] w-[50px] -rotate-12 z-10"
           />
         )}
+        {/* main image */}
         <img
           src={imageUrl}
           alt="Cryptora VPN App Screenshot"
-          class="w-full object-cover rounded-xl shadow-lg border border-primary/30"
+          class="w-full object-cover rounded-xl shadow-lg border border-primary/30 rotate-6"
+        />
+        {/* absolute image  */}
+        <img
+          src={imageUrl}
+          alt="Cryptora VPN App Screenshot"
+          class="w-full object-cover rounded-xl shadow-lg border border-primary/15 absolute top-0 left-0"
         />
       </div>
     </section>
