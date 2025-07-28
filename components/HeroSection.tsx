@@ -52,7 +52,7 @@ export default function HeroSection(
         <img
           src={imageUrl}
           alt="Cryptora VPN App Screenshot"
-          class="w-full object-cover rounded-xl shadow-lg border border-primary/30 bg-black"
+          class="w-full object-cover rounded-xl shadow-lg border border-primary/30"
         />
       </div>
     </section>

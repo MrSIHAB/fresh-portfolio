@@ -7,7 +7,7 @@ export default function AndroidSection() {
 // Create Flutter App
 void main(){
   runApp(
-    MaterialApp({title: 'My App'});
+    MaterialApp(title: 'My App');
   );
 }
 `,
