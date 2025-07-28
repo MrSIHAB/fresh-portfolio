@@ -5,7 +5,7 @@ import { knownTechList } from "../lib/static-data/knownTechList.ts";
  */
 export default function TechStack() {
   return (
-    <div class="w-full flex flex-col gap-6 items-center p-3 sm:p-8 my-20">
+    <div class="w-full flex flex-col gap-6 items-center p-3 sm:p-8 my-5">
       {
         /* <h2 class="text-2xl font-bold mb-4 text-white">
         Tools & Frameworks
