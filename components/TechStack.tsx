@@ -5,10 +5,12 @@ import { knownTechList } from "../lib/static-data/knownTechList.ts";
  */
 export default function TechStack() {
   return (
-    <div class="w-full flex flex-col gap-6 items-center p-3 sm:p-8">
-      <h2 class="text-2xl font-bold mb-4 text-white">
+    <div class="w-full flex flex-col gap-6 items-center p-3 sm:p-8 my-15">
+      {
+        /* <h2 class="text-2xl font-bold mb-4 text-white">
         Tools & Frameworks
-      </h2>
+      </h2> */
+      }
       <div class="flex flex-wrap align-middle justify-center gap-3 sm:gap-8 w-full">
         {knownTechList.map((brand) => (
           <div class="flex items-center justify-start" key={brand.name}>
