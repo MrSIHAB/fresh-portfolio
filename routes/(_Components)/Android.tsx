@@ -6,7 +6,9 @@ export default function AndroidSection() {
     code: `\
 // Create Flutter App
 void main(){
-
+  runApp(
+    MaterialApp({title: 'My App'});
+  );
 }
 `,
     image: "/images/cryptora.png",

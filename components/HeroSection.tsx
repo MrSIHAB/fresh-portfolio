@@ -8,10 +8,19 @@ interface HeroSectionOption {
   reverse?: boolean;
   code?: string;
   icon?: string;
+  floatingIcon?: string;
 }
 
 export default function HeroSection(
-  { imageUrl, heading, children, code, icon, reverse }: HeroSectionOption,
+  {
+    imageUrl,
+    heading,
+    children,
+    code,
+    icon,
+    reverse,
+    floatingIcon,
+  }: HeroSectionOption,
 ) {
   return (
     <section
@@ -33,7 +42,13 @@ export default function HeroSection(
       </div>
 
       {/* right: Flutter/Android visual */}
-      <div class="fex flex-col align-middle items-center flex-1 gap-4">
+      <div class="fex flex-col align-middle items-center flex-1 gap-4 relative">
+        {floatingIcon && (
+          <img
+            src={floatingIcon}
+            class="absolute top-[-25px] left-[-25px] w-[50px] -rotate-12"
+          />
+        )}
         <img
           src={imageUrl}
           alt="Cryptora VPN App Screenshot"
