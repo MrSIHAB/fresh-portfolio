@@ -12,7 +12,7 @@ export default function TechStack() {
       <div class="flex flex-wrap align-middle justify-center gap-3 sm:gap-8 w-full">
         {knownTechList.map((brand) => (
           <div class="flex items-center justify-start" key={brand.name}>
-            <div class="bg-gradient-to-r from-primary/20 to-accent/10 rounded-xl px-3 sm:px-6 py-1 sm:py-3 
+            <div class="bg-gradient-to-r from-primary/20 to-accent/10 rounded-xl px-3 sm:px-5 py-1 sm:py-3 
             shadow-md flex items-center gap-1 sm:gap-4 min-w-[55px]">
               {/* Optionally add an icon here if available: <img src={brand.icon} alt={brand.name} class="w-8 h-8" /> */}
               <div class="w-5 drop-shadow-sm fill-cyan-200">
