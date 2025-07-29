@@ -2,7 +2,7 @@ import HeroSection from "../../components/HeroSection.tsx";
 
 export default function TypeScriptSection() {
   const info = {
-    header: "TypeScript | Production Safety",
+    header: "TypeScript | JavaScrip++",
     code: `deno run main.ts`,
     image: "/images/tech/ts_code.png",
   };
@@ -22,9 +22,9 @@ export default function TypeScriptSection() {
         <mark>JavaScript</mark>. Whether it’s building full-stack apps with{" "}
         <mark>Deno&nbsp;&&nbsp;Node</mark>, designing scalable interfaces in
         {" "}
-        <mark>React</mark>, utilizing backend power with <mark>Hono</mark>{" "}
+        <mark>React</mark>, utilizing backend with <mark>Hono</mark>{" "}
         or crafting reusable modules in{" "}
-        <mark>Fresh</mark>, TypeScript is always at the core of my workflow.
+        <mark>Next</mark>, TypeScript is always at the core of my workflow.
       </p>
     </HeroSection>
   );
