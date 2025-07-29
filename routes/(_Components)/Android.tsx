@@ -2,15 +2,8 @@ import HeroSection from "../../components/HeroSection.tsx";
 
 export default function AndroidSection() {
   const info = {
-    header: "Android Development with Flutter",
-    code: `\
-// Create Flutter App
-void main(){
-  runApp(
-    MaterialApp(title: 'My App');
-  );
-}
-`,
+    header: `Mobile Development | Android & iOS`,
+    code: `MaterialApp(\n  title: 'My App',\n  home: HomePage(),\n);`,
     image: "/images/cryptora.png",
   };
 
@@ -23,9 +16,10 @@ void main(){
       reverse
     >
       <p class="text-gray-200">
-        I build Android applications using the{" "}
+        I build mobile applications using the{" "}
         <span class="font-semibold text-cyan-300">Flutter</span>{" "}
-        framework. My experience includes demo apps like a currency converter,
+        framework. It supports Android & iOS application from one single
+        codebase. My experience includes demo apps like a currency converter,
         weather app, social media templates, and e-commerce demos. For
         production, I've built apps like{" "}
         <span class="font-semibold text-cyan-300">Cryptora VPN</span> and{" "}
