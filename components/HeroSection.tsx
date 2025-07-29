@@ -24,10 +24,9 @@ export default function HeroSection(
 ) {
   return (
     <section
-      class={`w-full flex flex-col ${
+      class={`w-full flex flex-col items-center gap-8 py-10 md:py-20 px-3 sm:px-8 min-h-[80vh] ${
         reverse ? "md:flex-row-reverse" : "md:flex-row"
-      } items-center gap-8 
-    py-10 md:py-20 px-3 sm:px-8 min-h-[70vh]`}
+      }`}
     >
       {/* //* left: Description and code preview */}
       <div class="flex-1 max-w-xl">
