@@ -30,7 +30,7 @@ export default function HeroSection(
 
   return (
     <section
-      class={`w-full flex flex-col items-center gap-8 py-10 md:py-20 px-3 sm:px-8 min-h-[80vh] ${
+      class={`w-full flex flex-col items-center gap-8 py-10 md:py-20 px-5 sm:px-10 min-h-[80vh] ${
         reverse ? "md:flex-row-reverse" : "md:flex-row"
       }`}
     >
