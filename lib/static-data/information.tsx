@@ -1,39 +1,38 @@
 export const description = (
   <div class="">
-    <h3 class="text-xl text-primary font-bold">
-      👋 Hey, I'm Shoaib — Your Programming Buddy
-    </h3>
     <p>
+      <strong>👋 Hey, I'm Shoaib — Your Programming Buddy</strong>
+      <br />
       A self-taught developer who loves building useful tools, systems, and
       cross-platform apps. I work with Deno and TypeScript on the backend, and
       Flutter to create apps for Android and Linux. I enjoy solving real
-      problems—like making a{" "}
-      <mark>
-        custom VPN app or a simple database tool like EasyKV
-      </mark>. My goal is to keep things fast, clean, and easy to use—for both
-      developers and users.
+      problems—like making a custom VPN app or a simple database tool like
+      EasyKV. <br />
+      My goal is to keep things{" "}
+      <mark>fast, clean, and easy to use</mark>—for both developers and users.
     </p>
 
     <br />
-    <h4 class="text-xl text-primary font-semibold">✔ My Journey?</h4>
+    <h4 class="text-xl font-bold">✔ My Journey?</h4>
     <p>
       Ever since childhood, I’ve been fascinated by technology. I was a top
       student in mathematics, and that logical mindset made programming feel
-      natural. Over the past 3 years, I've turned that passion into a
-      career—exploring, learning, and building real-world applications.
+      natural. Over the past{" "}
+      <mark>4 years+</mark>, I've turned that passion into a career—exploring,
+      learning, and building real-world applications.
     </p>
 
     <br />
-    <h4 class="text-xl text-primary font-semibold">✔ What I Do</h4>
+    <h4 class="text-xl font-bold">✔ What I Do</h4>
     <p>
       In simple words,{" "}
-      <mark>App development, Web and Backend development</mark>. App includes
-      Android, Windows and Linux apps. I can't compile the iOS applications
-      because I don't have a Mac yet. But I can give the codes.
+      <mark>Web, Android, Desktop & Backend</mark>&nbsp; development. App
+      includes Android, Windows and Linux apps. I can't compile the iOS
+      applications because I don't have a Mac yet. But I can give the codes.
     </p>
 
     <br />
-    <h4 class="text-xl text-primary font-semibold">
+    <h4 class="text-xl font-bold">
       ✔ Web Applications
     </h4>
     <p>
@@ -45,26 +44,27 @@ export const description = (
     </p>
     <p>
       For more complex web apps, I use{" "}
-      <mark>Nextjs and Fresh.js</mark>. They both are great frameworks for
-      making fullstack applications. While Nextjs handles the complexity of
-      React Server component, Fresh uses Preact with Island architecture. Both
-      are SEO friendly.
+      <mark>Nextjs & Fresh.js</mark>. They both are great frameworks for making
+      fullstack applications. While Nextjs handles the complexity of React
+      Server component, Fresh uses Preact with Island architecture. Both are SEO
+      friendly.
     </p>
 
     <br />
-    <h4 class="text-xl text-primary font-semibold">
+    <h4 class="text-xl font-bold">
       ✔ Backend Development
     </h4>
     <p>
       I prefer{" "}
-      <mark>Node or Deno with Express or Hono framework</mark>. Since I have
-      prepared myself mostly with TypeScript and JavaScript I feel more
-      comfortable with them. While Node is dominating the market, Deno came to
-      replace the complexity of existing Node echo-system.
+      <mark>Node & Deno</mark>&nbsp;with&nbsp;<mark>Express & Hono
+      </mark>&nbsp;framework. Since I have prepared myself mostly with
+      TypeScript and JavaScript I feel more comfortable with them. While Node is
+      dominating the market, Deno came to replace the complexity of existing
+      Node echo-system.
     </p>
 
     <br />
-    <h4 class="text-xl text-primary font-semibold">
+    <h4 class="text-xl font-bold">
       ✔ Mobile App Development
     </h4>
     <p>
@@ -74,7 +74,7 @@ export const description = (
     </p>
 
     <br />
-    <h4 class="text-xl text-primary font-semibold">
+    <h4 class="text-xl font-bold">
       ✔ Desktop App Development
     </h4>
     <p>
@@ -93,7 +93,7 @@ export const description = (
     </p>
 
     <br />
-    <h4 class="text-xl text-primary font-semibold">
+    <h4 class="text-xl font-bold">
       ✔ Linux Is My Daily Driver
     </h4>
     <p>
@@ -103,7 +103,7 @@ export const description = (
     </p>
 
     <br />
-    <h4 class="text-xl text-primary font-semibold">
+    <h4 class="text-xl font-bold">
       ✔ My Approach to Performance
     </h4>
     <p>
@@ -116,7 +116,7 @@ export const description = (
     </p>
 
     <br />
-    <h4 class="text-xl text-primary font-semibold">
+    <h4 class="text-xl font-bold">
       ✔ A Bit More About Me
     </h4>
     <p>
@@ -135,7 +135,7 @@ export const description = (
     </p>
 
     <br />
-    <h4 class="text-xl text-primary font-semibold">
+    <h4 class="text-xl font-bold">
       ✔ Want to See My Work?
     </h4>
     <p>
