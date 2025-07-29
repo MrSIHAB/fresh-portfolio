@@ -9,7 +9,6 @@ import * as $index from "./routes/index.tsx";
 import * as $ExpandableDescription from "./islands/ExpandableDescription.tsx";
 import * as $OpenEmail from "./islands/OpenEmail.tsx";
 import * as $Project from "./islands/Project.tsx";
-import * as $TechStack from "./islands/TechStack.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -23,7 +22,6 @@ const manifest = {
     "./islands/ExpandableDescription.tsx": $ExpandableDescription,
     "./islands/OpenEmail.tsx": $OpenEmail,
     "./islands/Project.tsx": $Project,
-    "./islands/TechStack.tsx": $TechStack,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
