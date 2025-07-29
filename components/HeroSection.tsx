@@ -29,10 +29,10 @@ export default function HeroSection(
       } items-center gap-8 
     py-10 md:py-20 px-3 sm:px-8 min-h-[70vh]`}
     >
-      {/* left: Description and code preview */}
+      {/* //* left: Description and code preview */}
       <div class="flex-1 max-w-xl">
         <Heading>
-          {icon && <img src={icon} class="max-w-10 max-h-10 inline m-2" />}
+          {icon && <img src={icon} class="max-w-14 max-h-14 m-2" />}
           {heading}
         </Heading>
         <br />
@@ -41,7 +41,7 @@ export default function HeroSection(
         <Code>{code}</Code>
       </div>
 
-      {/* right: Flutter/Android visual */}
+      {/* //* right: Flutter/Android visual */}
       <div class="fex flex-col align-middle items-center flex-1 gap-4 relative">
         {floatingIcon && (
           // Floating Icon
