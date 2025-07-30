@@ -6,6 +6,7 @@ import TypeScriptSection from "./(_Components)/TypeScript.tsx";
 import BackendSection from "./(_Components)/BackendSection.tsx";
 import DesktopSection from "./(_Components)/Desktop.tsx";
 import FullstackSection from "./(_Components)/FullstackSection.tsx";
+import DeploymentSection from "./(_Components)/Deployment.tsx";
 // import Project from "./(_Components)/PortfolioCard.tsx";
 
 export default function Home() {
@@ -15,10 +16,11 @@ export default function Home() {
       <TechStack />
       <FrontendSection />
       <AndroidSection />
-      <TypeScriptSection />
-      <BackendSection />
       <DesktopSection />
+      <BackendSection />
+      <TypeScriptSection />
       <FullstackSection />
+      <DeploymentSection />
     </div>
   );
 }
