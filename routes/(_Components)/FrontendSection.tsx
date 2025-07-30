@@ -2,7 +2,7 @@ import HeroSection from "../../components/HeroSection.tsx";
 
 export default function FrontendSection() {
   const info = {
-    header: "Frontend Development | Web UI & Interaction",
+    header: "Frontend Development | Web UI",
     code: `npx create-react-app e-commerce-app`,
     image: "/images/projects/portfolio.old.png",
   };

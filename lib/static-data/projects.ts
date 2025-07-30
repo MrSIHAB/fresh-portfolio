@@ -50,7 +50,7 @@ export const projects: Project[] = [
   {
     title: "Portfolio (HTML, CSS, JS only)",
     description: "A VS-code for fresh developer experience",
-    image: "/images/portfolio.old.png",
+    image: "/images/projects/portfolio.old.png",
     type: ["Web"],
     link: "https://mrsihab.github.io/portfolio",
   },
