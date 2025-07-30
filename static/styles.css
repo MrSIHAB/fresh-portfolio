@@ -2,25 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-.card {
-  @apply text-white h-auto bg-gradient-to-br from-[#1e3b8ac5] to-[#1e3b8a3f]
-    bg-opacity-55 mx-auto px-5 md:px-12 py-7 backdrop-blur-lg border-[1px]
-    border-solid border-primary border-opacity-25 rounded-2xl
-    shadow-[rgba(0,0,0,0.70)] shadow-2xl;
-}
+@layer components {
+  .card {
+    @apply text-white h-auto bg-gradient-to-br from-[#1e3b8ac5] to-[#1e3b8a3f]
+      bg-opacity-55 mx-auto px-5 md:px-12 py-7 backdrop-blur-lg border-[2px]
+      border-solid border-primary border-opacity-25 rounded-2xl
+      shadow-[rgba(0,0,0,0.70)] shadow-2xl;
+  }
 
-.project-card {
-  @apply border-opacity-25 relative overflow-hidden rounded-2xl border
-    border-primary/20 bg-gradient-to-b backdrop-blur-lg p-5 shadow-lg
-    hover:shadow-xl transition-all;
-}
+  .project-card {
+    @apply border-opacity-25 relative overflow-hidden rounded-2xl
+      border-primary/55 border bg-gradient-to-b backdrop-blur-lg p-5 shadow-lg
+      hover:shadow-xl transition-all;
+  }
 
-.portfolio-card {
-  @apply to-[#591e8a7c] sm:w-10/12;
-}
+  .portfolio-card {
+    @apply shadow-xl shadow-card/55 border border-primary/55 from-primary/15
+      to-primary/5 px-4;
+  }
 
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 mark {
