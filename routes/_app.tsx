@@ -8,7 +8,7 @@ export default function App({ Component }: PageProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         {/* Shortcut icons */}
-        <link rel="shortcut icon" href="/images/icon.png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="icon" href="/images/icon.png" />
         <link rel="apple-touch-icon" href="/images/icon.png" />
 
