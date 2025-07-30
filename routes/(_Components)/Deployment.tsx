@@ -4,10 +4,10 @@ import { LinuxSvg } from "../../components/svg/Programming.tsx";
 export default function DeploymentSection() {
   return (
     <HeroSection
-      imageUrl="https://placehold.co/600x400?text=Deployment"
+      imageUrl="/images/hosting-banner.png"
       heading="Deployment & Hosting"
-      icon="/images/tech/ubuntu.png"
-      floatingIcon="/images/tech/docker.png"
+      icon="/images/tech/docker.png"
+      floatingIcon="/images/tech/ubuntu.png"
       fip="left"
       code="docker compose up -d ..."
     >
