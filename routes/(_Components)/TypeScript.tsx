@@ -2,7 +2,7 @@ import HeroSection from "../../components/HeroSection.tsx";
 
 export default function TypeScriptSection() {
   const info = {
-    header: "TypeScript | JavaScrip++",
+    header: "TypeScript",
     code: `deno run main.ts`,
     image: "/images/tech/ts_code.png",
   };
