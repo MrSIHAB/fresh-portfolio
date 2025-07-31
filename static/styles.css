@@ -24,6 +24,11 @@
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
+
+  .code {
+    @apply bg-gradient-to-br from-primary/20 to-accent/10 rounded-lg
+      shadow-inner max-w-[90vw] overflow-scroll;
+  }
 }
 
 mark {

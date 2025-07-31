@@ -5,7 +5,7 @@ export const Heading = (profs: { children?: ComponentChildren }) => (
 );
 
 export const Code = (profs: { children?: ComponentChildren }) => (
-  <div class="bg-gradient-to-br from-primary/20 to-accent/10 rounded-lg p-4 shadow-inner">
-    <pre class="text-xs md:text-sm text-white overflow-x-auto">{profs.children}</pre>
+  <div class="code scrollbar-hide">
+    <pre class="text-xs md:text-sm text-white overflow-x-auto p-4">{profs.children}</pre>
   </div>
 );
