@@ -1,6 +1,13 @@
 import { type PageProps } from "$fresh/server.ts";
 
 export default function App({ Component }: PageProps) {
+  const themes = [
+    "bg-gradient-to-br from-cyan-500 to-blue-600",
+    "bg-[#090222]",
+  ];
+
+  const currentTheme = themes[Math.floor(Math.random() * themes.length)];
+
   return (
     <html>
       <head>
@@ -29,7 +36,7 @@ export default function App({ Component }: PageProps) {
         <link rel="stylesheet" href="/styles.css" />
       </head>
       <body>
-        <div className="bg-gradient-to-br from-cyan-500 to-blue-600 bg-no-repeat min-h-screen font-arimo">
+        <div className={`${currentTheme} bg-no-repeat min-h-screen font-arimo`}>
           <Component />
         </div>
       </body>
