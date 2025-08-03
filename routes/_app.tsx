@@ -31,6 +31,34 @@ export default function App({ Component }: PageProps) {
           rel="stylesheet"
         />
 
+        {/* <!-- og meta --- --> */}
+        <meta property="og:title" content="Shoaib Hossain" />
+        <meta property="og:site_name" content="MrSIHAB" />
+        <meta property="og:type" content="Portfolio" />
+        <meta
+          property="og:description"
+          content="A developer portfolio showcasing MrSIHAB's projects and Skills."
+        />
+        <meta
+          property="og:image"
+          content="https://sihab.deno.dev/screenshots/ss.png"
+        />
+        <meta property="og:url" content="sihab.deno.dev" />
+        {/* <!-- twitter Card ------ --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:image"
+          content="https://sihab.deno.dev/screenshots/ss.png"
+        />
+        <meta name="twitter:title" content="MrSIHAB" />
+        <meta name="twitter:site" content="@ShoaibSihab" />
+        <meta name="twitter:url" content="https://sihab.deno.dev" />
+        <meta name="twitter:domain" content="https://sihab.deno.dev" />
+        <meta
+          name="twitter:description"
+          content="A developer portfolio showcasing MrSIHAB's projects and Skills."
+        />
+
         {/* Other titles */}
         <title>MrSIHAB | Shoaib Hossain</title>
         <link rel="stylesheet" href="/styles.css" />
