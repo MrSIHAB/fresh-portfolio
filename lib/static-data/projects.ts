@@ -9,7 +9,7 @@ export type ProjectCategory =
   | "Mobile"
   | "Plugin";
 
-interface Project {
+export interface Project {
   title: string;
   description: string;
   image: string;
