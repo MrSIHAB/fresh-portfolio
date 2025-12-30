@@ -2,12 +2,25 @@ import { useSignal } from "@preact/signals";
 import { SocialBar } from "../../components/SocialBar.tsx";
 import ExpandableDescription from "../../islands/ExpandableDescription.tsx";
 import { OpenEmailButton } from "../../islands/OpenEmail.tsx";
+import ParticlesBackground from "../../islands/ParticlesBackground.tsx";
 
 export default function ProfileCard() {
   const expanded = useSignal(false);
 
   return (
     <section class="py-7 md:py-20 min-h-[70vh] content-center">
+      {/* Background Image & Overlay */}
+      <div class="absolute inset-0 z-0">
+        <img
+          src="/hero-bg.png"
+          alt="Abstract Background"
+          class="w-full h-full object-cover opacity-5 "
+        />
+        <div class="absolute inset-0 ">
+        </div>
+        <ParticlesBackground />
+      </div>
+
       <div class="card w-11/12 sm:w-10/12 md:flex lg:w-9/12">
         {/* //* Profile Picture */}
         <div>

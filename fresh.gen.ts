@@ -8,6 +8,7 @@ import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $ExpandableDescription from "./islands/ExpandableDescription.tsx";
 import * as $OpenEmail from "./islands/OpenEmail.tsx";
+import * as $ParticlesBackground from "./islands/ParticlesBackground.tsx";
 import * as $Project from "./islands/Project.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
@@ -21,6 +22,7 @@ const manifest = {
   islands: {
     "./islands/ExpandableDescription.tsx": $ExpandableDescription,
     "./islands/OpenEmail.tsx": $OpenEmail,
+    "./islands/ParticlesBackground.tsx": $ParticlesBackground,
     "./islands/Project.tsx": $Project,
   },
   baseUrl: import.meta.url,
