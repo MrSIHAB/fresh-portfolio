@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "preact/hooks";
+import { document } from "npm:postcss@8.4.35";
 
 interface Particle {
   x: number;
@@ -200,9 +201,13 @@ export default function ParticlesBackground() {
   }, []);
 
   return (
-    <canvas
-      ref={canvasRef}
-      class="absolute top-0 left-0 w-full h-full pointer-events-none z-0 opacity-40"
-    />
+    <div class="fixed inset-0 z-0">
+      <div class="absolute inset-0 ">
+      </div>
+      <canvas
+        ref={canvasRef}
+        class="absolute top-0 left-0 w-full h-full pointer-events-none z-0 opacity-40"
+      />
+    </div>
   );
 }

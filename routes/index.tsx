@@ -9,10 +9,12 @@ import FullstackSection from "./(_Components)/FullstackSection.tsx";
 import DeploymentSection from "./(_Components)/Deployment.tsx";
 import Project from "./(_Components)/PortfolioCard.tsx";
 import { FreshCredit } from "../components/FreshCredit.tsx";
+import ParticlesBackground from "../islands/ParticlesBackground.tsx";
 
 export default function Home() {
   return (
     <div>
+      <ParticlesBackground />
       <ProfileCard />
       <TechStack />
       <FrontendSection />
