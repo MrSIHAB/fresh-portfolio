@@ -22,4 +22,4 @@ color:black;
 "> Preview
 </a>
 
-![Full Screen Shot](/static/screenshots/ss-full.png)
+![Full Screen Shot](static/screenshots/ss-full.png)
