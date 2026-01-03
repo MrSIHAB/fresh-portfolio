@@ -42,8 +42,7 @@ export const projects: Project[] = [
   {
     title: "Material Homepage",
     description: "A modern new tab for all Browsers.",
-    image:
-      "https://github.com/MrSIHAB/material-homepage/raw/main/screenshots/5th.png",
+    image: "/images/projects/material-homepage.png",
     type: ["Plugin", "Web"],
     link: "https://bit.ly/mhrepo",
   },

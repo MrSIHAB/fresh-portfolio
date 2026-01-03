@@ -7,8 +7,8 @@ import BackendSection from "./(_Components)/BackendSection.tsx";
 import DesktopSection from "./(_Components)/Desktop.tsx";
 import FullstackSection from "./(_Components)/FullstackSection.tsx";
 import DeploymentSection from "./(_Components)/Deployment.tsx";
-import Project from "./(_Components)/PortfolioCard.tsx";
 import { FreshCredit } from "../components/FreshCredit.tsx";
+import Projects from "../components/Projects.tsx";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
       <TypeScriptSection />
       <FullstackSection />
       <DeploymentSection />
-      <Project />
+      <Projects />
 
       {/* Simple Made with Fresh credit */}
       <FreshCredit />
