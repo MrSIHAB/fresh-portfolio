@@ -1,5 +1,5 @@
 import { Signal } from "@preact/signals";
-import { description } from "../lib/static-data/information.tsx";
+import { ShortDescription } from "../lib/static-data/information.tsx";
 
 export default function ExpandableDescription(
   { expanded }: { expanded: Signal<boolean> },
@@ -12,7 +12,7 @@ export default function ExpandableDescription(
           expanded.value ? "max-h-[550px]" : "max-h-[255px]"
         }`}
       >
-        <p>{description}</p>
+        <ShortDescription />
       </div>
 
       <div class="flex justify-end mt-2">
