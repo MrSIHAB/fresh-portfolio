@@ -7,7 +7,7 @@
         @apply text-white h-auto bg-gradient-to-br from-[#1e3b8ac5] to-[#1e3b8a3f]
       bg-opacity-55 mx-auto px-5 md:px-12 py-7 backdrop-blur-sm border-[2px]
       border-solid border-primary border-opacity-25 rounded-2xl
-      shadow-[rgba(0,0,0,0.40)] shadow-2xl;
+      shadow-[rgba(0,0,0,0.70)] shadow-2xl;
     }
 
     .project-card {

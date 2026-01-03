@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "preact/hooks";
-import { document } from "npm:postcss@8.4.35";
 
 interface Particle {
   x: number;

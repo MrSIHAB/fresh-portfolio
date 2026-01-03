@@ -1,4 +1,5 @@
 import { type PageProps } from "$fresh/server.ts";
+import ParticlesBackground from "../islands/ParticlesBackground.tsx";
 
 export default function App({ Component }: PageProps) {
   const themes = [
@@ -64,7 +65,10 @@ export default function App({ Component }: PageProps) {
         <link rel="stylesheet" href="/styles.css" />
       </head>
       <body>
-        <div className={`${currentTheme} bg-no-repeat min-h-screen font-arimo`}>
+        <ParticlesBackground />
+        <div
+          className={`${currentTheme} bg-no-repeat min-h-screen font-arimo relative z-10`}
+        >
           <Component />
         </div>
       </body>

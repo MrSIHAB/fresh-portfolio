@@ -175,8 +175,6 @@ export function ShortDescription() {
       What—never heard of them? Maybe you’re just trying to figure out what I
       do. To be honest, I’m still figuring that out myself.
       <br />
-      <br />
-
       Sometimes I enjoy building backends with Node.js. Other times, I switch to
       Deno for a cleaner experience. I tried React to follow the trend, Flutter
       to build mobile apps, and Flutter again—this time for crazy desktop
@@ -184,27 +182,17 @@ export function ShortDescription() {
       attention. “How can something feel so much like TypeScript in terms of
       types declaration, yet not be TypeScript?”
       <br />
-      <br />
-
       I’ve built VS Code themes. That doesn't means I can't build browser
       extensions like Material Homepage, and while Tailwind CSS powers this
       portfolio, I still write raw CSS when the case demands it.
       <br />
-      <br />
-
       If you’re wondering where Python is—well, when it was time to learn
       Python, I chose Go instead. Because I’m a Ronaldo fan. And I believe in
       hard work. Show some respect to this best player in the world's fan.
       <br />
-      <br />
-
-      So who am I? A frontend developer? Backend developer? Mobile or desktop
-      developer? Full-stack? Plugin developer? Programmer? Software engineer? Or
-      just a coder?
-      <br />
-      <br />
-
-      In my opinion…
+      So, it turns out who am I? A frontend developer? Backend developer? Mobile
+      or desktop developer? Full-stack? Plugin developer? Programmer? Software
+      engineer? Or just a coder? In my opinion…
       <span class="text-nowrap font-semibold">I am Shoaib Hossain</span>. You
       can call me <mark>SIHAB</mark>.
       <br />
@@ -228,7 +216,7 @@ export function ShortDescription() {
 
       No matter what you’re searching for, my final response is simple:
       <mark>
-        I use <del>Arch</del> Ubuntu, BTW.
+        <del>I use Arch BTW</del>. I use Ubuntu BTW.
       </mark>
     </p>
   );
