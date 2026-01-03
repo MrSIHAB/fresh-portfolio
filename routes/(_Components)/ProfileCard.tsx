@@ -29,19 +29,18 @@ export default function ProfileCard() {
           <div class="w-1 bg-primary rounded-full h-2/3 mx-10 mt-7" />
         </div>
 
-        {/* //* short detail  */}
-
+        {/* Name with gradient background */}
         <div>
-          <div class="flex align-middle justify-center mb-3">
-            <div>
-              <h1 class="text-4xl font-bold text-primary">
-                Shoaib Hossain
-              </h1>
-              <h3 class="text-right text-2xl font-bold italic text-primary">
-                MrSIHAB
-              </h3>
-            </div>
+          <div class="text-center font-extrabold font-sans text-nowrap mb-3">
+            <span class="text-primary  text-5xl">
+              Shoaib Hossain
+            </span>{" "}
+            <span class="text-2xl bg-gradient-to-r from-purple-300 to-purple-400 bg-clip-text text-transparent">
+              MrSIHAB
+            </span>
           </div>
+
+          {/*description*/}
           <ExpandableDescription expanded={expanded} />
         </div>
         <div>
