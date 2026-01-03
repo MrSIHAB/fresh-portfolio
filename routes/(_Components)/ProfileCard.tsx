@@ -11,12 +11,13 @@ export default function ProfileCard() {
       <div class="card w-11/12 sm:w-10/12 md:flex lg:w-9/12">
         {/* //* Profile Picture */}
         <div>
-          <div class="w-56 mx-auto">
+          <div class="w-56 h-56 mx-auto rounded-full ring-4 ring-primary overflow-hidden relative">
             <img
               src="/images/profile.jpg"
               alt="Profile Image"
-              class="rounded-full ring-4 ring-primary"
+              class="object-cover"
             />
+            <div class="inset-0 absolute"></div>
           </div>
           <br />
           <SocialBar />

@@ -45,7 +45,7 @@ export const projects: Project[] = [
     image:
       "https://github.com/MrSIHAB/material-homepage/raw/main/screenshots/5th.png",
     type: ["Plugin", "Web"],
-    link: "https://github.com/MrS1HAB/material-homepage",
+    link: "https://bit.ly/mhrepo",
   },
   {
     title: "Portfolio (HTML, CSS, JS only)",

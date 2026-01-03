@@ -1,4 +1,4 @@
-import TechStack from "../components/TechStack.tsx";
+import TechStack from "./(_Components)/TechStack.tsx";
 import ProfileCard from "./(_Components)/ProfileCard.tsx";
 import AndroidSection from "./(_Components)/MobileSection.tsx";
 import FrontendSection from "./(_Components)/FrontendSection.tsx";
