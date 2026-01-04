@@ -1,14 +1,14 @@
-import TechStack from "./(_Components)/TechStack.tsx";
-import ProfileCard from "./(_Components)/ProfileCard.tsx";
-import AndroidSection from "./(_Components)/MobileSection.tsx";
-import FrontendSection from "./(_Components)/FrontendSection.tsx";
-import TypeScriptSection from "./(_Components)/TypeScript.tsx";
-import BackendSection from "./(_Components)/BackendSection.tsx";
-import DesktopSection from "./(_Components)/Desktop.tsx";
-import FullstackSection from "./(_Components)/FullstackSection.tsx";
-import DeploymentSection from "./(_Components)/Deployment.tsx";
+import FrontendSection from "./(_components)/FrontendSection.tsx";
+import ProfileCard from "./(_components)/ProfileCard.tsx";
+import TechStack from "./(_components)/TechStack.tsx";
+import AndroidSection from "./(_components)/MobileSection.tsx";
+import DesktopSection from "./(_components)/Desktop.tsx";
+import BackendSection from "./(_components)/BackendSection.tsx";
+import TypeScriptSection from "./(_components)/TypeScript.tsx";
+import FullstackSection from "./(_components)/FullstackSection.tsx";
+import DeploymentSection from "./(_components)/Deployment.tsx";
 import { FreshCredit } from "../components/FreshCredit.tsx";
-import Projects from ".//(_Islands)/Projects.tsx";
+import Projects from "./(_islands)/Projects.tsx";
 
 export default function Home() {
   return (

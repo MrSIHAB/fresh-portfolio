@@ -1,6 +1,6 @@
 import { Github } from "lucide-preact";
-import ScrollReveal from "../islands/ScrollReveal.tsx";
-import { projects } from "../lib/static-data/projects.ts";
+import ScrollReveal from "../../islands/ScrollReveal.tsx";
+import { projects } from "../../lib/static-data/projects.ts";
 
 export default function Projects() {
   return (
