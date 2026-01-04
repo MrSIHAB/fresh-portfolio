@@ -1,8 +1,10 @@
-import { Github } from "lucide-preact";
+import { ExternalLink, Github } from "lucide-preact";
 import ScrollReveal from "../../islands/ScrollReveal.tsx";
 import { projects } from "../../lib/static-data/projects.ts";
 
 export default function Projects() {
+  const basePath = "/images/projects/";
+
   return (
     <section id="projects" class="py-20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -22,7 +24,7 @@ export default function Projects() {
                 {/* Project Image */}
                 <div class="h-48 overflow-hidden relative">
                   <img
-                    src={project.image}
+                    src={basePath + (project.image ?? "project-thumb.png")}
                     alt={project.title}
                     class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100"
                   />
@@ -39,10 +41,13 @@ export default function Projects() {
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      class="text-gray-400 hover:text-white"
+                      class="text-gray-400 hover:text-white fill-gray-400"
                       aria-label={`View ${project.title}`}
                     >
-                      {Github({ class: "w-6 h-6" })}
+                      {/*{Github({ class: "w-6 h-6" })}*/}
+                      <div class="w-6 h-6">
+                        {project.action ? <project.action /> : ExternalLink({})}
+                      </div>
                     </a>
                   </div>
 
