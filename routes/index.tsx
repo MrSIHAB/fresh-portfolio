@@ -8,7 +8,7 @@ import DesktopSection from "./(_Components)/Desktop.tsx";
 import FullstackSection from "./(_Components)/FullstackSection.tsx";
 import DeploymentSection from "./(_Components)/Deployment.tsx";
 import { FreshCredit } from "../components/FreshCredit.tsx";
-import Projects from "../components/Projects.tsx";
+import Projects from ".//(_Islands)/Projects.tsx";
 
 export default function Home() {
   return (

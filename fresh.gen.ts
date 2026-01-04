@@ -11,6 +11,7 @@ import * as $OpenEmail from "./islands/OpenEmail.tsx";
 import * as $ParticlesBackground from "./islands/ParticlesBackground.tsx";
 import * as $Project from "./islands/Project.tsx";
 import * as $ScrollReveal from "./islands/ScrollReveal.tsx";
+import * as $_islands_Projects from "./routes/(_islands)/Projects.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -26,6 +27,7 @@ const manifest = {
     "./islands/ParticlesBackground.tsx": $ParticlesBackground,
     "./islands/Project.tsx": $Project,
     "./islands/ScrollReveal.tsx": $ScrollReveal,
+    "./routes/(_islands)/Projects.tsx": $_islands_Projects,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
