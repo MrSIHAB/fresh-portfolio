@@ -6,6 +6,11 @@ import {
 } from "../lib/static-data/projects.ts";
 import ProjectCard from "../components/ProjectCard.tsx";
 
+/**
+ * @deprecated
+ * This component is deprecated and will be removed in the next major release.
+ * User `<Projects/>` instead.
+ */
 export default function ProjectIsland() {
   const [selected, setSelected] = useState<ProjectCategory>("All");
 
