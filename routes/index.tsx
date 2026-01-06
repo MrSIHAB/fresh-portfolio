@@ -12,7 +12,7 @@ import Projects from "./(_islands)/Projects.tsx";
 
 export default function Home() {
   return (
-    <div>
+    <div class="relative z-10">
       <ProfileCard />
       <TechStack />
       <FrontendSection />

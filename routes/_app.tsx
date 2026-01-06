@@ -65,10 +65,8 @@ export default function App({ Component }: PageProps) {
         <link rel="stylesheet" href="/styles.css" />
       </head>
       <body>
-        <ParticlesBackground />
-        <div
-          className={`${currentTheme} bg-no-repeat min-h-screen font-arimo relative z-10`}
-        >
+        <div className={`${currentTheme} bg-no-repeat min-h-screen font-arimo`}>
+          <ParticlesBackground />
           <Component />
         </div>
       </body>
