@@ -32,7 +32,7 @@ export default function ProfileCard() {
 
         {/* Name with gradient background */}
         <div>
-          <div class="text-center font-extrabold font-sans text-nowrap mb-3">
+          <div class="text-center font-extrabold font-sans mb-3">
             <span class="text-primary  text-5xl">
               Shoaib Hossain
             </span>{" "}
