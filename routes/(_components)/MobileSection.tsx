@@ -4,7 +4,7 @@ export default function AndroidSection() {
   const info = {
     header: `Mobile Development | Android & iOS`,
     code: `MaterialApp(\n  title: 'My App',\n  home: HomePage(),\n);`,
-    image: "/images/cryptora.png",
+    image: "/images/projects/cryptora.png",
   };
 
   return (

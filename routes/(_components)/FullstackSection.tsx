@@ -12,7 +12,7 @@ import {
 export default function FullstackSection() {
   return (
     <HeroSection
-      imageUrl="/images/projects/material-homepage.png"
+      imageUrl="/images/projects/vist.png"
       heading="Fullstack Web Development"
       icon="/images/tech/next.png"
       floatingIcon="/images/tech/fresh.png"
