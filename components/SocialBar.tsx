@@ -9,7 +9,7 @@ export const SocialBar = () => {
             class="fill-cyan-100 w-7 hover:fill-primary duration-500"
             title={site.name}
           >
-            <a href={site.url} target="_blank">
+            <a href={site.url} target="_blank" class="fill-cyan-100">
               <site.icon />
             </a>
           </div>
