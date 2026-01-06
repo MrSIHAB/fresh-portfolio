@@ -1,4 +1,4 @@
-import { JSX } from "preact";
+import { Component } from "./projects.ts";
 
 import {
   FacebookSvg,
@@ -10,35 +10,35 @@ import {
 
 interface SocialLinks {
   name: string;
-  icon: JSX.Element;
+  icon: Component;
   url: string;
 }
 
 export const socialLinks: SocialLinks[] = [
   {
     name: "Facebook",
-    icon: <FacebookSvg />,
+    icon: FacebookSvg,
     url: "https://www.facebook.com/MrSIHAB.h",
   },
   {
     name: "YouTube",
-    icon: <YouTubeSvg />,
+    icon: YouTubeSvg,
     url: "https://www.youtube.com/@ShoaibHossain",
   },
   {
     name: "Github",
-    icon: <GithubSvg />,
+    icon: GithubSvg,
     url: "https://github.com/MrSIHAB",
   },
 
   {
     name: "Twitter",
-    icon: <XSvg />,
+    icon: XSvg,
     url: "https://x.com/ShoaibSihab",
   },
   {
     name: "Freelancer",
-    icon: <FreelancerSvg />,
+    icon: FreelancerSvg,
     url: "https://freelancer.com/u/sbshoaib",
   },
 ];

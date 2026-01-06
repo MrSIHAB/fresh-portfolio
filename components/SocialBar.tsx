@@ -10,7 +10,7 @@ export const SocialBar = () => {
             title={site.name}
           >
             <a href={site.url} target="_blank">
-              {site.icon}
+              <site.icon />
             </a>
           </div>
         ))}
