@@ -1,3 +1,4 @@
+import { createElement } from "preact";
 import {
   DartSvg,
   DenoSvg,
@@ -5,8 +6,11 @@ import {
   ExpressSvg,
   FlutterSvg,
   FreshSvg,
+  GoSvg,
   HonoSvg,
   JavascriptSvg,
+  LinuxSvg,
+  MongoDBSvg,
   NextSvg,
   NodeSvg,
   ReactSvg,
@@ -15,7 +19,10 @@ import {
   UbuntuSvg,
 } from "../../components/svg/Programming.tsx";
 
-export const knownTechList = [
+export const knownTechList: {
+  icon: () => createElement.JSX.Element;
+  name: string;
+}[] = [
   { icon: JavascriptSvg, name: "JavaScript" },
   { icon: TypescriptSvg, name: "TypeScript" },
   { icon: ReactSvg, name: "React" },
@@ -27,7 +34,10 @@ export const knownTechList = [
   { icon: FreshSvg, name: "Fresh" },
   { icon: DartSvg, name: "Dart" },
   { icon: FlutterSvg, name: "Flutter" },
+  { icon: LinuxSvg, name: "Linux" },
   { icon: UbuntuSvg, name: "Ubuntu" },
   { icon: DockerSvg, name: "Docker" },
   { icon: TailwindSvg, name: "Tailwind" },
+  { icon: GoSvg, name: "GoLang" },
+  { icon: MongoDBSvg, name: "MongoDB" },
 ];
