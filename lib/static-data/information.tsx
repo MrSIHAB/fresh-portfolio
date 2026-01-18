@@ -151,7 +151,7 @@ export const description = (
   </div>
 );
 
-export function ShortDescription() {
+export const ShortDescription = () => {
   return (
     <p class="text-lg font-arimo">
       Hello, survivor 👋 What are you looking for today? What do you want to
@@ -220,4 +220,4 @@ export function ShortDescription() {
       </mark>
     </p>
   );
-}
+};
