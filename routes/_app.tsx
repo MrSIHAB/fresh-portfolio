@@ -1,4 +1,5 @@
 import { type PageProps } from "$fresh/server.ts";
+import DanboPet from "../islands/Danbo.tsx";
 import ParticlesBackground from "../islands/ParticlesBackground.tsx";
 
 export default function App({ Component }: PageProps) {
@@ -67,6 +68,7 @@ export default function App({ Component }: PageProps) {
       <body>
         <div className={`${currentTheme} bg-no-repeat min-h-screen font-arimo`}>
           <ParticlesBackground />
+          <DanboPet />
           <Component />
         </div>
       </body>
