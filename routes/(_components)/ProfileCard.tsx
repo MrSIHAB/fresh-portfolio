@@ -17,7 +17,7 @@ export default function ProfileCard() {
               alt="Profile Image"
               class="object-cover"
             />
-            <div class="inset-0 absolute"></div>
+            <div class="profile-pic inset-0 absolute"></div>
           </div>
           <br />
           <SocialBar />

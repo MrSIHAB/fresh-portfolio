@@ -20,7 +20,7 @@ export default function Projects() {
               key={project.title}
               delay={`delay-${(index * 100 + 100).toString()}`}
             >
-              <div class="group bg-slate-900 rounded-2xl overflow-hidden shadow-[0_0_20px_rgba(0,255,255,0.1)] transition-all duration-300 flex flex-col h-full border border-white/15">
+              <div class="project-card group bg-slate-900 rounded-2xl overflow-hidden shadow-[0_0_20px_rgba(0,255,255,0.1)] transition-all duration-300 flex flex-col h-full border border-white/15">
                 {/* Project Image */}
                 <div class="h-48 overflow-hidden relative">
                   <img

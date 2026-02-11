@@ -7,6 +7,7 @@ export function OpenEmailButton() {
 
   return (
     <ActionButton
+      title="email"
       style={{ margin: "1.75rem 0" }}
       onClick={() => globalThis.open(emailUrl)}
     >

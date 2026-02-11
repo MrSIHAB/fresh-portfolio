@@ -20,10 +20,10 @@ export default function TechStack() {
             <div class="bg-gradient-to-r from-primary/20 to-accent/10 rounded-xl px-3 sm:px-5 py-1 sm:py-3
             shadow-md flex items-center gap-1 sm:gap-4 min-w-[55px]">
               {/* Optionally add an icon here if available: <img src={brand.icon} alt={brand.name} class="w-8 h-8" /> */}
-              <div class="w-5 drop-shadow-sm fill-cyan-200">
+              <div class="skill-tag w-5 drop-shadow-sm fill-cyan-200">
                 <brand.icon />
               </div>
-              <span class="sm:text-lg font-semibold text-white">
+              <span class="skill-tag sm:text-lg font-semibold text-white">
                 {brand.name}
               </span>
             </div>

@@ -6,6 +6,7 @@ import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
+import * as $Danbo from "./islands/Danbo.tsx";
 import * as $ExpandableDescription from "./islands/ExpandableDescription.tsx";
 import * as $OpenEmail from "./islands/OpenEmail.tsx";
 import * as $ParticlesBackground from "./islands/ParticlesBackground.tsx";
@@ -22,6 +23,7 @@ const manifest = {
     "./routes/index.tsx": $index,
   },
   islands: {
+    "./islands/Danbo.tsx": $Danbo,
     "./islands/ExpandableDescription.tsx": $ExpandableDescription,
     "./islands/OpenEmail.tsx": $OpenEmail,
     "./islands/ParticlesBackground.tsx": $ParticlesBackground,
